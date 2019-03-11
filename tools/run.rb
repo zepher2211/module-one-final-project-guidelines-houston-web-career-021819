@@ -6,4 +6,5 @@ require_all 'app'
 $prompt = TTY::Prompt.new
 #    binding.pry
     puts "\e[H\e[2J"
+#    binding.pry
     menu_choice()

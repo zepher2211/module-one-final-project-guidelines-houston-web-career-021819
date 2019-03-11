@@ -5,5 +5,6 @@ def application_process
         positions.each_with_index do | position, index |
           menu.choice position.title, position.id
         end
+        menu.choice "Main Menu"
       end
     end
