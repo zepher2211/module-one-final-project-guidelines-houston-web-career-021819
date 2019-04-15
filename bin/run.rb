@@ -1,5 +1,10 @@
 require_relative '../config/environment'
+require 'tty'
+require 'pry'
+require_all 'app'
 
-
-
-puts "HELLO WORLD"
+$prompt = TTY::Prompt.new
+#    binding.pry
+    puts "\e[H\e[2J"
+#    binding.pry
+    menu_choice()
