@@ -7,6 +7,9 @@ have many Positions through Applications.
 tty and Active Record
 
 #Installing/Deployment
+Run Bundle Install
+Run rake db:migrate in console
+Run rake db:seed in console
 Enter console using ruby tools/run.rb
 
 #Running the Test
